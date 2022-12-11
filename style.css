@@ -1,0 +1,78 @@
+p{
+    font-size: 30px;
+    color: red;
+}
+.paragraph1{
+
+font-size: 30px;
+color: blue;
+font-weight: 900;
+}
+
+
+/* pseudo class selector */
+
+/* we use this : symbol */
+
+.btn{
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* .item{
+    color: black;
+} */
+
+.item:link{
+    color: red;
+}
+
+.item:visited{
+    color: black;
+}
+
+.item:hover{
+    color: black;
+}
+
+.item:active{
+    color: chartreuse;
+}
+/* 
+input:focus{
+   outline: none;
+    border: 2px red;
+} */
+
+/* pseudo element */
+
+
+/* .para ::before{
+    content: url();     to get image before image
+} */
+/* 
+.para ::first-letter{
+    color: red;    To give a red color to first letter
+} */
+
+
+/* attribute selector */
+input[type="text"]{
+    color: red;
+    font-size: 20px;
+}
+
+a[target="_blank"]{
+    background-color: yellow;
+}
